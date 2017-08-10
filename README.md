@@ -1,24 +1,57 @@
-# README
+User Stories
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The following required functionality is complete:
 
-Things you may want to cover:
+    [ ] User can sign up by providing their email, password, and name.
+    [ ] User can login using an email and password.
+    [ ] After logging in, the user is taken to an INBOX page that has a list of incoming messages, sorted in descending chronological order (newest messages at top)
+        Provide a fake “new message” link and a “sent messages” link BUT don’t have to make them work yet.
+    [ ] Unread messages should be bold or something similar in the list of messages.
+    [ ] Implement “Users” link takes the user to a page that lists all users. Next to/under each user, provide a link to “Add As Friend” to add the user to your list of friends.
+    [ ] Implement “New Message” page. The recipient field should be a dropdown, where the options are names from the user’s friends.
+    [ ] Implement “Sent Messages” page. It lists messages you have sent. Each message should display at what time it was read by the recipient, or “unread”. The user cannot read the contents of the messages.
+    [ ] User can read a message’s content only once. Once the message has been read, the user will see a page indicating the message has already been read.
+    [ ] User can only read messages where they are the recipient.
 
-* Ruby version
+The following optional functionality is complete:
 
-* System dependencies
+    [ ] User can attach an image.
+    [ ] User can have multiple recipients on one message.
+    [ ] User can log in with Facebook.
+    [ ] User A can “block” User B. If User A blocks User B, they will not see messages from User B. User B will not know they have been blocked.
+    [ ] User can remove friends from their friends list.
+    [ ] User can unblock friends from their block list.
+    [ ] Implement Infinite Scroll. Hint: you can use the kaminari gem and jquery-infinite-pages gem.
+    [ ] User gets an email when they receive a message, with a link to view the message.
+    [ ] User gets an email when a message they have sent is read with the time at which the message was read.
+    [ ] User can send a message to the email address of a non-registered user. The recipient will receive an email with a link to sign up for the service, and after creating an account, will be able to view the sent message.
 
-* Configuration
+The following additional features are implemented:
 
-* Database creation
+    [ ] (List anything else that you can get done to improve the app functionality!)
 
-* Database initialization
+Video Walkthrough
 
-* How to run the test suite
+Here’s a walkthrough of implemented user stories:
 
-* Services (job queues, cache servers, search engines, etc.)
+Video Walkthrough
 
-* Deployment instructions
+GIF created with LiceCap.
+Notes
 
-* ...
+Describe any challenges encountered while building the app.
+License
+
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
